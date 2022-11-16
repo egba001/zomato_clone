@@ -10,6 +10,8 @@ a {
     color: white;
 }
 
+
+
 header {
     width: 100%;
     height: 70vh;
@@ -35,11 +37,35 @@ header {
     font-size: 1rem;
     margin: 0 40px
 }
-.nav-bar {
+
+.get-app {
+    margin-left: 40px;
+    font-size: small;
+    font-weight: bold;
+}
+
+nav {
     list-style-type: none;
     display: flex;
     font-weight: lighter;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    margin: 0 50px;
+    font-size: large;
 }
+li {
+    margin-right: 10px;
+    list-style-type: none;
+    margin-right: 40px;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .head {
     display: flex;
     justify-content: center;
@@ -57,7 +83,7 @@ header {
 }
 .search {
     display: flex;
-    width: 55vw;
+    width: 65vw;
     align-items: center;
     border-radius: 10px;
     background: white;
@@ -66,14 +92,15 @@ header {
 .search .search-item {
     display: flex;
     align-items: center;
-    margin-left: 10px;
+    margin-right: 10px;
 }
 .search .search-item p {
     color: grey;
     border-right: 1px solid grey;
-    font-size: 15px;
+    font-size: .8rem;
     margin-right: 10px;
     margin: 10px;
+    padding-right: 5px;
 }
 .search .search-item input {
     outline: none;
@@ -136,4 +163,10 @@ header {
     font-size: 2rem;
     line-height: 1.2;
     font-weight: 400;
+}
+.section-2-container {
+    
+}
+.places-link {
+    text-decoration: default;
 }
